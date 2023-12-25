@@ -7,4 +7,12 @@ export default defineConfig({
     targets: ['chrome >= 69','not op_mini all'],
     ecmaVersion: 2015 ,
   })],
+  output: {
+    sourceMap: {
+      js:
+          process.env.NODE_ENV === 'production'?
+      'cheap-module-source-map':
+      'source-map',
+    },
+  },
 });

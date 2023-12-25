@@ -11,14 +11,14 @@ dependencies:
 
 devDependencies:
   '@rsbuild/core':
-    specifier: ^0.2.8
-    version: 0.2.8
+    specifier: ^0.2.9
+    version: 0.2.9
   '@rsbuild/plugin-check-syntax':
-    specifier: ^0.2.8
-    version: 0.2.8(@rsbuild/core@0.2.8)
+    specifier: ^0.2.9
+    version: 0.2.9(@rsbuild/core@0.2.9)
   '@rsbuild/plugin-vue':
-    specifier: ^0.2.8
-    version: 0.2.8(@rsbuild/core@0.2.8)(vue@3.3.13)
+    specifier: ^0.2.9
+    version: 0.2.9(@rsbuild/core@0.2.9)(vue@3.3.13)
   typescript:
     specifier: ^5.3.0
     version: 5.3.3
@@ -84,38 +84,38 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@rsbuild/core@0.2.8:
-    resolution: {integrity: sha512-wl9u0ZRlCfBn9mQ+1TuFbT1gi3hYy7yw8zv8i/R0v2s4ydFkUuHFMIVbeBt0peKLLKRmYS3rYF/RcXUVhbfsyQ==}
+  /@rsbuild/core@0.2.9:
+    resolution: {integrity: sha512-JaYqAZ+uqa+PnyF0z5snCY+5/8YeiJgLJLSDyFI9HocCCpKSp7ghy1LhEyZZs3y2KbMnYQf0ttsO82CE7FL0hg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
-      '@rsbuild/shared': 0.2.8
+      '@rsbuild/shared': 0.2.9
       '@rspack/core': 0.4.4
       core-js: 3.32.2
-      html-webpack-plugin: /html-rspack-plugin@5.5.7
+      html-webpack-plugin: /html-rspack-plugin@5.6.0
       postcss: 8.4.31
     dev: true
 
-  /@rsbuild/plugin-check-syntax@0.2.8(@rsbuild/core@0.2.8):
-    resolution: {integrity: sha512-ULfnHFzjULCuMfOEskQRDycV1nMOuOXRgKzjHeQ2RsfK756Sh51B3EY3sIV/RH/oAo0iOmWSkG/lxM8Bt5qV9g==}
+  /@rsbuild/plugin-check-syntax@0.2.9(@rsbuild/core@0.2.9):
+    resolution: {integrity: sha512-3gOc9Obe9GLqG6zttBCr680ZZCkE96xU+MiTLD7Bpdw4EWU7FCOcSemKUzqnGOLtAdJ8VfuDFWE0KJXpOyrPiA==}
     peerDependencies:
       '@rsbuild/core': 0.x
     dependencies:
-      '@rsbuild/core': 0.2.8
-      '@rsbuild/shared': 0.2.8
+      '@rsbuild/core': 0.2.9
+      '@rsbuild/shared': 0.2.9
       acorn: 8.11.2
       caniuse-lite: 1.0.30001571
       htmlparser2: 9.0.0
       source-map: 0.7.4
     dev: true
 
-  /@rsbuild/plugin-vue@0.2.8(@rsbuild/core@0.2.8)(vue@3.3.13):
-    resolution: {integrity: sha512-ezn3OaZs9nsaaZJopH5d8EfGnunezGOuC91aojFspTPTU+zrVzVJuvf4vU8YwLBYcvo/mR+O62b6RhUiWOhf2w==}
+  /@rsbuild/plugin-vue@0.2.9(@rsbuild/core@0.2.9)(vue@3.3.13):
+    resolution: {integrity: sha512-a8x/VRmMaYSa/JmQOA96VxWkxNPLMH5/tZEhEUpzI2ddljoN1p1FU0jPzSRzXsRC45yNVY+eF7oIgp9R5GNP4w==}
     peerDependencies:
       '@rsbuild/core': 0.x
     dependencies:
-      '@rsbuild/core': 0.2.8
-      '@rsbuild/shared': 0.2.8
+      '@rsbuild/core': 0.2.9
+      '@rsbuild/shared': 0.2.9
       vue-loader: 17.3.1(vue@3.3.13)(webpack@5.89.0)
       webpack: 5.89.0
     transitivePeerDependencies:
@@ -127,8 +127,8 @@ packages:
       - webpack-cli
     dev: true
 
-  /@rsbuild/shared@0.2.8:
-    resolution: {integrity: sha512-87bdIgWYtFxDZGzFoJz21+RqMVLGXN40k6a00ldmaP4D+R95v/+S5NSvreG4im/kOo12RcW0LzuqE3QE0vtT6Q==}
+  /@rsbuild/shared@0.2.9:
+    resolution: {integrity: sha512-PQApuE3aKvSt+giwAF16iMjBMsr1wTcg2fYCyp9xSXt3L0LK146vJ4x+7Dq7U3cQ3/7HpOOv0ZzUyst4LQBdLg==}
     dependencies:
       '@rspack/core': 0.4.4
       caniuse-lite: 1.0.30001571
@@ -691,8 +691,8 @@ packages:
     resolution: {integrity: sha512-WdZTbAByD+pHfl/g9QSsBIIwy8IT+EsPiKDs0KNX+zSHhdDLFKdZu0BQHljvO+0QI/BasbMSUa8wYNCZTvhslg==}
     dev: true
 
-  /html-rspack-plugin@5.5.7:
-    resolution: {integrity: sha512-7dNAURj9XBHWoYg59F8VU6hT7J7w+od4Lr5hc/rrgN6sy6QfqVpoPqW9Qw4IGFOgit8Pul7iQp1yysBSIhOlsg==}
+  /html-rspack-plugin@5.6.0:
+    resolution: {integrity: sha512-4jrAQEEt9JCcGbeP7dFV1d42RF6IA9nYWoqK5i+rncdPPMz6eVHt1scPy9722brams7/SndzJhoIxN0Hw7T4ZA==}
     engines: {node: '>=10.13.0'}
     dependencies:
       lodash: 4.17.21
@@ -998,7 +998,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       glob-to-regexp: 0.4.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /webpack-sources@3.2.3:
